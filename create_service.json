@@ -1,0 +1,13 @@
+{
+"vnet" : 0,
+"subnet" : 0,
+"subnet_delegate" : 0,
+"subnet_nsg_delegate" : 0,
+"nsg" : 0,
+"datafactory" : 0,
+"databricks_ws" : 0,
+"databricks_default" : 0,
+"databricks_clu" : 0,
+"local_gateway" : 0,
+"storage" : 0
+}

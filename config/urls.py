@@ -1,0 +1,15 @@
+auth_url = "login.microsoftonline.com"
+auth_token_url = "/%s/oauth2/token"
+az_mng_url = "management.azure.com"
+dbricks_ws_url = "/subscriptions/{subid}/resourceGroups/{rg}/providers/Microsoft.Databricks/workspaces/{ws}?api-version=2018-04-01"
+# dbricks_ws_url = "/subscriptions/%s/resourceGroups/%s/providers/Microsoft.Databricks/workspaces/%s?api-version=2018-04-01"
+vnet_url = "/subscriptions/%s/resourceGroups/%s/providers/Microsoft.Network/virtualNetworks/%s?api-version=2019-11-01"
+# delegate_subnet_url = "/subscriptions/%s/resourceGroups/%s/providers/Microsoft.Network/virtualNetworks/%s/subnets/%s?api-version=2019-11-01"
+subnet_url = "/subscriptions/%s/resourceGroups/%s/providers/Microsoft.Network/virtualNetworks/%s/subnets/%s?api-version=2019-11-01"
+nsg_url = "https://management.azure.com/subscriptions/%s/resourceGroups/%s/providers/Microsoft.Network/networkSecurityGroups/%s?api-version=2019-11-01"
+dfactory_url = "/subscriptions/%s/resourceGroups/%s/providers/Microsoft.DataFactory/factories/%s?api-version=2018-06-01"
+databricks_url = "%s.azuredatabricks.net"
+databricks_clu_create_url = "/api/2.0/clusters/create"
+local_gw_url = "/subscriptions/%s/resourceGroups/%s/providers/Microsoft.Network/localNetworkGateways/%s?api-version=2019-11-01",
+storage_url = "/subscriptions/%s/resourceGroups/%s/providers/Microsoft.Storage/storageAccounts/%s?api-version=2018-02-01"
+
